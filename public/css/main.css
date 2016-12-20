@@ -1,0 +1,488 @@
+/****FUENTES*******/
+
+@font-face {
+  font-family: Oswald;
+  src: url('../fonts/Oswald regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: Oswald;
+  src: url('../fonts/Oswald 300.ttf');
+  font-weight:300;
+}
+@font-face {
+  font-family: Oswald;
+  src: url('../fonts/Oswald 700.ttf');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: Rock Salt;
+  src: url('../fonts/Rock Salt regular.ttf');
+}
+
+
+body {
+    padding-bottom: 20px;
+    background-color: #E6E6DC;
+    height:100%;
+}
+
+/****HEADER*******/
+
+
+.azul{
+	background-color: #00628B;
+	margin-bottom: 0;
+	border-bottom-width: 3px;
+	border-color: darkgrey;
+	border-bottom-style: solid;
+}
+
+.azul .top-bar{
+	background-color: #00628B;
+}
+
+.nombre {
+	color:white;
+	font-family: Rock Salt;
+	padding:10px;
+	margin-left: 15px;
+	margin-top: 15px;
+	font-weight: normal;
+	text-shadow: 1px 2px 10px #222;
+
+
+}
+
+
+
+#ingresar{
+	background-color: #00628B;
+	border:0;
+	font-family: Oswald;
+	font-weight:300;
+	font-size: 24px;
+	padding:5px;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+.top-bar-section ul li{
+	background-color: #00628B;
+}
+
+
+#logout{
+	display: inline;
+	background-color: #00628B;
+	padding:7px;
+	margin-top: 25px;
+}
+
+#logout-a{
+	
+	background-color: #00628B;
+	margin-right: 40px;
+	
+}
+
+#crealizada{
+	display: block;
+	background: #43AC6A;
+	width: 100%;
+	margin: 0;
+	color: white;
+	font-family: Oswald;
+	font-weight: 300;
+
+}
+.fi-power:hover{
+	 text-shadow:0px 0px 20px red;
+	 color: darkred;
+}
+
+.hover-blanco:hover{
+text-shadow: 0px 0px 10px white ;
+}
+
+/****GALERIA*******/
+
+.contenedor-galeria {
+	
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-bottom: 60px;
+	min-height: 1146px;
+}
+
+.categoria{
+	background-color: white;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-style: solid;
+
+
+
+}
+
+.categoria ul{
+	list-style: none;
+}
+.categoria h3,h5{
+	font-family: Oswald;
+}
+
+.categoria h5 {
+	border-bottom-style: solid;
+	border-bottom-width: 1.8px;
+	border-color:white;
+	color: #383636;
+	margin-left: 25px;
+	display: inline-block;
+
+	
+
+}
+.categoria h5:hover {
+	
+	border-color:#004E6F;
+
+	
+
+}
+
+
+
+.small-6{
+	padding: 0;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-style: solid;
+	width: 100%;
+	
+}
+
+
+
+.galeria .panel h5,h6{
+font-family: Oswald;
+}
+.galeria .panel h5{
+font-weight: 700;
+}
+.galeria .panel h6{
+font-weight: 300;
+}
+
+.galeria{
+	margin: 0;
+}
+.galeria div{
+	margin: 0;
+	background-color: white
+}
+.galeria-item{
+    display: inline-block; 
+    width: 32%;
+    margin: 0;
+    
+}
+.galeria-item:hover{
+    box-shadow: 0px 0px 3px #004E6F;
+    
+}
+.galeria h5 h6{
+	font-family: Oswald;
+}
+
+
+.img_cuadrada{
+    padding-bottom: 100%;
+    
+    position: relative;
+    
+}
+.img_cuadrada img{
+
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.pager{
+	margin:0;
+	background-color: #E6E6DC; 
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    height: 100%;
+}
+/*******Overlay********/
+#overlay{
+	background:rgba(0,0,0,0.7);
+	
+	width: 100%;
+	height: 100%;
+	position:   fixed;
+	top:0;
+	left:0;
+	display:none;
+	text-align: center;
+	z-index: 500;
+
+}
+
+
+
+
+#ajax img{
+	margin-left: -265px;
+}
+
+
+
+/*******PRODUCTO********/
+
+
+.producto{
+	width: 45%;
+	margin: 0 auto;
+	border-color: darkgrey;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.creado{
+	
+	color: #005200;
+}
+
+.unidad{
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+
+#close{
+	
+	text-align: right;
+	padding: 4px;
+	font-size: 24px;
+	z-index: 3000;
+}
+
+.title p{
+	width: 90%;
+	display: inline-block;
+	margin-bottom: 0;
+	text-align: left;
+
+}
+.title a{
+	width: 10%;
+	display: inline-block;
+	color:white;
+}
+.title a:hover{
+color: lightgrey;
+}
+
+/****FOOTER******/
+
+.footer{
+	background-color: #81A594;
+	margin-top: 50px;
+}
+
+.footer .contact i {
+	background-color: #759485;
+	}
+
+.footer .contact li p{
+	padding-left: 0;
+}
+
+.footer .inline-list a{
+	background-color: #759485;
+}
+
+.footer .footer-links  {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+/******List Box****/
+
+.encabezado {
+	
+	color: black;
+	font-weight:bold ;
+	text-transform: uppercase;
+}
+
+/*******Panel-lista******/
+.contenedor-lista{
+	
+	text-align: left;
+
+}
+.cell {
+    display: inline-block;
+    height: 30px;
+    outline: 1px solid black;
+    vertical-align: top;
+    width: 30px;
+}
+.contenedor-lista div div{
+	
+	border-collapse:collapse;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	display: inline-block;
+	overflow:hidden;
+	background-color: white;
+	height: 33px;
+	font-size: 12px
+
+}
+.contenedor-lista input{
+	margin: 0 ;
+
+
+
+}
+.eliminar{
+	margin-top: 20px;
+}
+
+.pager li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+.pager li a{
+	padding: 30px;
+}
+
+.disabled span{
+    color: black;
+    line-height: inherit;
+    text-decoration: none;
+    background-color: transparent;
+     border-radius: 0px; 
+     margin-top: 0px; 
+     display: inline-block; 
+     position: relative; 
+     padding: 0px; 
+    left: 0%; 
+
+}
+
+
+/*********CART**************/
+
+.fi-trash,.fi-shopping-cart,.fi-arrow-left,.fi-credit-card,.fi-power,.fi-torso{
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.alert{
+	margin-top: 20px;
+	margin-bottom:40px;
+}
+
+.carrito-titulo{
+
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	font-family: Oswald;
+  	border-bottom: 1px solid black;
+  	font-weight:300;
+  	max-width: 70%;
+  	margin-right:15%;
+  	margin-left:15%;
+}
+.boton-carrito{
+	display: inline-block;
+	width: 130px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 90px;
+	margin-top: 40px;
+
+}
+.width-130{
+	width: 130px;
+	font-weight:300;
+
+}
+
+.total{
+	font-family: Oswald;
+	color: #316C08;
+	margin-top: 40px;
+}
+/************AUTH**********/
+
+.auth{
+	width: 50%;
+	margin-top: 50px;
+	margin-right:15%;
+	margin-left: 25%;
+	margin-bottom: 70px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: Oswald;
+  	
+  	font-weight:300;
+}
+
+div span{
+	border-radius: 5px;
+	background-color: LightCoral;
+	margin-top: -47px;
+	display: block;
+	position: absolute;
+	padding: 3px;
+	left: 66%;
+}
+
+
+/*******CUENTA*********/
+
+.menu-cuenta table{
+margin: 0;
+}
+
+.grey-hover:hover{
+	background-color: lightgrey;
+}
+
+.margin{
+	margin-top: 15px;
+}
+.menu-seleccionado{
+	background-color: lightgrey;
+	margin-bottom: 30px;
+}
+.menu-cuenta a{
+text-decoration: none;
+color: black;
+
+
+}
